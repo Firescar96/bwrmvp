@@ -1,0 +1,134 @@
+html, body {
+  width: 100%;
+  height: 100%;
+  color: white;
+  background: black; }
+
+body > div, body > div > div {
+  width: 100%;
+  height: 100%; }
+
+.navbar {
+  background: black;
+  width: 100%;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.65);
+  z-index: 2000;
+  position: fixed;
+  z-index: 2000; }
+  .navbar .navbar-brand {
+    text-align: left;
+    color: red; }
+  .navbar .navbar-brand:hover {
+    text-decoration: none; }
+
+#main {
+  height: 100%;
+  width: 100%; }
+
+.pages header {
+  margin-top: 30px;
+  padding-bottom: 40px;
+  text-align: center; }
+
+#page-welcome {
+  position: relative;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: flex-start;
+  justify-content: flex-start;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  text-align: center;
+  background: url(/images/riverwalk.jpg) 50% 0 no-repeat fixed;
+  background-size: cover; }
+  #page-welcome > div {
+    display: block;
+    margin-top: 100px; }
+
+#page-intro {
+  position: relative;
+  background: black;
+  height: 500px; }
+  #page-intro div.container {
+    z-index: 2;
+    position: relative;
+    color: white; }
+    #page-intro div.container div.row div {
+      padding-bottom: 20px; }
+    #page-intro div.container img {
+      width: 100%; }
+    #page-intro div.container .img-circle {
+      background: #aa0000;
+      border: 10px outset; }
+html, body {
+  width: 100%;
+  height: 100%;
+  color: white;
+  background: black; }
+
+body > div, body > div > div {
+  width: 100%;
+  height: 100%; }
+
+.navbar {
+  background: black;
+  width: 100%;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.65);
+  z-index: 2000;
+  position: fixed;
+  z-index: 2000; }
+  .navbar .navbar-brand {
+    text-align: left;
+    color: red; }
+  .navbar .navbar-brand:hover {
+    text-decoration: none; }
+
+#main {
+  height: 100%;
+  width: 100%; }
+
+.pages header {
+  margin-top: 30px;
+  padding-bottom: 40px;
+  text-align: center; }
+
+#page-welcome {
+  position: relative;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: flex-start;
+  justify-content: flex-start;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  text-align: center;
+  background: url(/images/riverwalk.jpg) 50% 0 no-repeat fixed;
+  background-size: cover; }
+  #page-welcome > div {
+    display: block;
+    margin-top: 100px; }
+
+#page-intro {
+  position: relative;
+  background: black;
+  height: 500px; }
+  #page-intro div.container {
+    z-index: 2;
+    position: relative;
+    color: white; }
+    #page-intro div.container div.row div {
+      padding-bottom: 20px; }
+    #page-intro div.container img {
+      width: 100%; }
+    #page-intro div.container .img-circle {
+      background: #aa0000;
+      border: 10px outset; }

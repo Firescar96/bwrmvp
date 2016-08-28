@@ -1,5 +1,5 @@
 import React from 'react';
-require('../sass/home.scss');
+require('../sass/demo.scss');
 
 let navbar = (
   <nav className="navbar navbar-inverse">
@@ -26,21 +26,21 @@ let navbar = (
   </nav>
 );
 
-var Home = React.createClass({
+var Demo = React.createClass({
   render () {
     return (
       <div>
         {navbar}
         <div className="pages white center" id="page-welcome">
           <div className="line-divider" id="banner">
-            <h1>Blockchain Warehouse Receipts</h1>
+            <h1>Demo Usage</h1>
           </div>
         </div>
 
         <div className="pages container" id="page-intro">
           <header id="intro">
             <h3 className="line-divider">What is BWR</h3>
-            <p>This page will be updated as more speakers confirm</p>
+            <p>Tststep in the flow</p>
           </header>
           <article>
           </article>
@@ -51,4 +51,4 @@ var Home = React.createClass({
   },
 });
 
-export default Home;
+export default Demo;
