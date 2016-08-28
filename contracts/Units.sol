@@ -50,4 +50,8 @@ contract MyUnit{
         }
     }
 
+    function(){
+      throw;
+    }
+
 }
