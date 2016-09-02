@@ -19,6 +19,7 @@ body>div, body>div>div  {
   // transition: 0.2s transform cubic-bezier(.3,.73,.3,.74);
 
   position: fixed;
+  top: 0;
   z-index: 2000;
 
   // &.down {

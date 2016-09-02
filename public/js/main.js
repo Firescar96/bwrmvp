@@ -161,7 +161,7 @@
 	  render: function render() {
 	    return _react2.default.createElement(
 	      'div',
-	      null,
+	      { id: 'home' },
 	      navbar,
 	      _react2.default.createElement(
 	        'div',
@@ -25698,39 +25698,176 @@
 	  render: function render() {
 	    return _react2.default.createElement(
 	      'div',
-	      null,
+	      { id: 'demo' },
 	      navbar,
 	      _react2.default.createElement(
 	        'div',
-	        { className: 'pages white center', id: 'page-welcome' },
-	        _react2.default.createElement(
-	          'div',
-	          { className: 'line-divider', id: 'banner' },
-	          _react2.default.createElement(
-	            'h1',
-	            null,
-	            'Demo Usage'
-	          )
-	        )
-	      ),
-	      _react2.default.createElement(
-	        'div',
-	        { className: 'pages container', id: 'page-intro' },
+	        { className: 'pages container', id: 'page-demo' },
 	        _react2.default.createElement(
 	          'header',
 	          { id: 'intro' },
 	          _react2.default.createElement(
-	            'h3',
+	            'h2',
 	            { className: 'line-divider' },
-	            'What is BWR'
-	          ),
-	          _react2.default.createElement(
-	            'p',
-	            null,
-	            'Tststep in the flow'
+	            'Store Units'
 	          )
 	        ),
-	        _react2.default.createElement('article', null)
+	        _react2.default.createElement(
+	          'article',
+	          null,
+	          _react2.default.createElement(
+	            'h3',
+	            null,
+	            'Depositor - Store Units'
+	          ),
+	          _react2.default.createElement(
+	            'label',
+	            null,
+	            _react2.default.createElement(
+	              'span',
+	              null,
+	              'Warehouse Address'
+	            ),
+	            _react2.default.createElement('input', null)
+	          ),
+	          _react2.default.createElement(
+	            'label',
+	            null,
+	            _react2.default.createElement(
+	              'span',
+	              null,
+	              'Owner'
+	            ),
+	            _react2.default.createElement('input', null)
+	          ),
+	          _react2.default.createElement(
+	            'label',
+	            null,
+	            _react2.default.createElement(
+	              'span',
+	              null,
+	              'Number of Units'
+	            ),
+	            _react2.default.createElement('input', null)
+	          ),
+	          _react2.default.createElement(
+	            'label',
+	            null,
+	            _react2.default.createElement(
+	              'span',
+	              null,
+	              'Time Picked'
+	            ),
+	            _react2.default.createElement('input', { disabled: true })
+	          ),
+	          _react2.default.createElement(
+	            'label',
+	            null,
+	            _react2.default.createElement(
+	              'span',
+	              null,
+	              'Variety'
+	            ),
+	            _react2.default.createElement('input', { disabled: true })
+	          ),
+	          _react2.default.createElement(
+	            'button',
+	            null,
+	            'Submit'
+	          )
+	        ),
+	        _react2.default.createElement(
+	          'article',
+	          null,
+	          _react2.default.createElement(
+	            'h3',
+	            null,
+	            'Warehouse - Generate EWR'
+	          ),
+	          _react2.default.createElement(
+	            'label',
+	            null,
+	            _react2.default.createElement(
+	              'span',
+	              null,
+	              'GUID'
+	            ),
+	            _react2.default.createElement('input', null)
+	          ),
+	          _react2.default.createElement(
+	            'label',
+	            null,
+	            _react2.default.createElement(
+	              'span',
+	              null,
+	              'Owner'
+	            ),
+	            _react2.default.createElement('input', null)
+	          ),
+	          _react2.default.createElement(
+	            'label',
+	            null,
+	            _react2.default.createElement(
+	              'span',
+	              null,
+	              'Warehouse'
+	            ),
+	            _react2.default.createElement('input', null)
+	          ),
+	          _react2.default.createElement(
+	            'button',
+	            null,
+	            'Submit'
+	          )
+	        ),
+	        _react2.default.createElement(
+	          'article',
+	          null,
+	          _react2.default.createElement(
+	            'h3',
+	            null,
+	            'Warehouse - Sign EWR'
+	          ),
+	          _react2.default.createElement(
+	            'label',
+	            null,
+	            _react2.default.createElement(
+	              'span',
+	              null,
+	              'GUID'
+	            ),
+	            _react2.default.createElement('input', null)
+	          ),
+	          _react2.default.createElement(
+	            'button',
+	            null,
+	            'Submit'
+	          )
+	        ),
+	        _react2.default.createElement(
+	          'article',
+	          null,
+	          _react2.default.createElement(
+	            'h3',
+	            null,
+	            'Depositor - Sign EWR'
+	          ),
+	          _react2.default.createElement(
+	            'label',
+	            null,
+	            _react2.default.createElement(
+	              'span',
+	              null,
+	              'GUID'
+	            ),
+	            _react2.default.createElement('input', null)
+	          ),
+	          _react2.default.createElement(
+	            'button',
+	            null,
+	            'Submit'
+	          )
+	        )
 	      )
 	    );
 	  }

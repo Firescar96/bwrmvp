@@ -29,7 +29,7 @@ let navbar = (
 var Home = React.createClass({
   render () {
     return (
-      <div>
+      <div id="home">
         {navbar}
         <div className="pages white center" id="page-welcome">
           <div className="line-divider" id="banner">

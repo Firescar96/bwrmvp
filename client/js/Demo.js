@@ -29,23 +29,70 @@ let navbar = (
 var Demo = React.createClass({
   render () {
     return (
-      <div>
+      <div id="demo">
         {navbar}
-        <div className="pages white center" id="page-welcome">
-          <div className="line-divider" id="banner">
-            <h1>Demo Usage</h1>
-          </div>
-        </div>
 
-        <div className="pages container" id="page-intro">
+        <div className="pages container" id="page-demo">
           <header id="intro">
-            <h3 className="line-divider">What is BWR</h3>
-            <p>Tststep in the flow</p>
+            <h2 className="line-divider">Store Units</h2>
           </header>
           <article>
+            <h3>Depositor - Store Units</h3>
+            <label>
+              <span>Warehouse Address</span>
+              <input></input>
+            </label>
+            <label>
+              <span>Owner</span>
+              <input></input>
+            </label>
+            <label>
+              <span>Number of Units</span>
+              <input></input>
+            </label>
+            <label>
+              <span>Time Picked</span>
+              <input disabled></input>
+            </label>
+            <label>
+              <span>Variety</span>
+              <input disabled></input>
+            </label>
+            <button>Submit</button>
+          </article>
+          <article>
+            <h3>Warehouse - Generate EWR</h3>
+            <label>
+              <span>GUID</span>
+              <input></input>
+            </label>
+            <label>
+              <span>Owner</span>
+              <input></input>
+            </label>
+            <label>
+              <span>Warehouse</span>
+              <input></input>
+            </label>
+            <button>Submit</button>
+          </article>
+          <article>
+            <h3>Warehouse - Sign EWR</h3>
+            <label>
+              <span>GUID</span>
+              <input></input>
+            </label>
+            <button>Submit</button>
+          </article>
+          <article>
+            <h3>Depositor - Sign EWR</h3>
+            <label>
+              <span>GUID</span>
+              <input></input>
+            </label>
+            <button>Submit</button>
           </article>
         </div>
-
       </div>
     );
   },
